@@ -504,7 +504,7 @@ export default function Portfolio() {
 
       {/* ── FOOTER ── */}
       <footer style={{ padding:"18px 5vw",borderTop:"1px solid #ffffff0a",display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:8 }}>
-        <span style={{ fontFamily:"'JetBrains Mono',monospace",fontSize:11,color:"#444466" }}>© 2026 Alex Rivera · Built with ♥ in React</span>
+        <span style={{ fontFamily:"'JetBrains Mono',monospace",fontSize:11,color:"#444466" }}>© 2026 Saurabh kamane · Built with ♥ in React</span>
         <span style={{ fontFamily:"'JetBrains Mono',monospace",fontSize:11,color:"#444466" }}>Design / Code / Ship</span>
       </footer>
     </div>
