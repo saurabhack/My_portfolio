@@ -383,7 +383,7 @@ export default function Portfolio() {
               <button className="btn-h" style={{ padding:"13px 26px",fontSize:14 }} onClick={openHire}>✦ Hire Me</button>
             </div>
             <div style={{ display:"flex",gap:isMobile?24:36,marginTop:44,paddingTop:32,borderTop:"1px solid #ffffff0d",flexWrap:"wrap" }}>
-              {[["8+","Years Exp."],["40+","Projects"],["15K+","OSS Stars"]].map(([n,l])=>(
+              {[["1+","Years Exp."],["20+","Projects"],["200+","OSS Stars"]].map(([n,l])=>(
                 <div key={l}>
                   <div style={{ fontSize:isMobile?24:30,fontWeight:800,color:"#fff",letterSpacing:"-.04em",fontFamily:"'JetBrains Mono',monospace" }}>{n}</div>
                   <div style={{ fontSize:12,color:"#666688",marginTop:2 }}>{l}</div>
@@ -491,10 +491,10 @@ export default function Portfolio() {
             </p>
             <button className="btn-h" style={{ fontSize:15,padding:"15px 36px",marginBottom:36 }} onClick={openHire}>✦ Start a Conversation</button>
             <div style={{ display:"flex",gap:10,justifyContent:"center",flexWrap:"wrap" }}>
-              {[["GitHub","github.com/arivera"],["LinkedIn","linkedin.com/in/arivera"],["Twitter","@arivera_dev"],["Dribbble","dribbble.com/arivera"]].map(([n,h])=>(
-                <a key={n} className="slink" href="#">
+              {[["GitHub","https://github.com/saurabhack"],["LinkedIn","https://www.linkedin.com/in/saurabh-kamane-3ba95331b/"],["Twitter","@arivera_dev"],["Dribbble","dribbble.com/arivera"]].map(([n,h])=>(
+                <a key={n} className="slink" href={h}>
                   <strong style={{ fontSize:13 }}>{n}</strong>
-                  <span style={{ color:"#444466",fontSize:11 }}>{h}</span>
+                  <span style={{ color:"#444466",fontSize:11 }}> {h}   </span>
                 </a>
               ))}
             </div>
